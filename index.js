@@ -57,3 +57,20 @@ var modeofPayment;
 // taking input
 prompt('Mode of payment')
 alert(firstName + " Successfull " + courseName + " Using " + modeofPayment)
+
+// Task No 5
+
+// modulo operator
+var x =  32, y = 52
+x = x%y
+// exponentiation operator
+var a = 2, b = 66
+a = a**b
+// equal opetator
+var x = 3 == '3';
+// strict equal opetator
+var x = 3 === '3';
+// No equal opetator
+var x = 3 != '3';
+
+// for more check google
