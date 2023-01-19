@@ -210,3 +210,15 @@ function makeSandwich(bread,veggies,sauce) {
     document.write(bread + veggies + " " + sauce + " sandwich is ready ")
 }
 makeSandwich(bread,veggies,sauce)
+
+
+// Task 10..............
+
+let str = "Hello, World!";
+
+document.write(str.length); // prints length (13)
+document.write(str.toUpperCase()); // prints "HELLO, WORLD!"
+document.write(str.toLowerCase()); // prints "hello, world!"
+document.write(str.substring(7, 12)); // prints "World"
+document.write(str.indexOf("World")); // prints 7
+document.write(str.replace("World", "Universe")); // prints "Hello, Universe!"
