@@ -212,7 +212,7 @@ function makeSandwich(bread,veggies,sauce) {
 makeSandwich(bread,veggies,sauce)
 
 
-// Task 10..............
+// Task No 10..............
 
 let str = "Hello, World!";
 
@@ -222,3 +222,15 @@ document.write(str.toLowerCase()); // prints "hello, world!"
 document.write(str.substring(7, 12)); // prints "World"
 document.write(str.indexOf("World")); // prints 7
 document.write(str.replace("World", "Universe")); // prints "Hello, Universe!"
+
+
+
+// Task No 11............
+let animal={
+    name:"tiger",
+    legs:4
+}
+// Dot notation
+console.log("name of animal is : " + animal.name)
+// Bracket notation
+console.log(animal["legs"])
