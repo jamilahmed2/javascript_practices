@@ -36,3 +36,24 @@ console.log(typeof num)
 // bigint
 var num = 12345n;
 console.log(typeof num)
+
+
+// Task No 4
+
+// naming conventions
+// camelCase
+let firstName = "jamil"
+// pascalCase
+let lastName = "ahmed"
+// snakeCase
+let middle_name = " jim "
+
+const price = 99;
+var courseName = 'Java Script'
+var cardNumber = '12345666789'
+var isPaid = true;
+var modeofPayment;
+
+// taking input
+prompt('Mode of payment')
+alert(firstName + " Successfull " + courseName + " Using " + modeofPayment)
