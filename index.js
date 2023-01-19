@@ -89,3 +89,21 @@ if(time>5 && time<17){
 }else{
     alert("Good Ninght")
 }
+
+
+// Task No 7
+
+// switch statement
+var fruittype = prompt("Check price avaiable fruits")
+switch (fruittype) {
+    case 'apple':
+        alert("apple price is 150")
+        break;
+    case 'banana':
+        alert("banana price is 120")
+        break;
+
+    default:
+        alert(`${fruittype} is not available`)
+}
+alert('Let me know if anything left')
