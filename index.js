@@ -226,6 +226,7 @@ document.write(str.replace("World", "Universe")); // prints "Hello, Universe!"
 
 
 // Task No 11............
+
 let animal={
     name:"tiger",
     legs:4
@@ -234,3 +235,19 @@ let animal={
 console.log("name of animal is : " + animal.name)
 // Bracket notation
 console.log(animal["legs"])
+
+
+
+// Task No 12............
+
+let arr1 = new Array(); // creates an empty array
+let arr2 = new Array(1, 2, 3); // creates an array with elements 1, 2, and 3
+let arr3 = [1, 2, 3]; // creates an array with elements 1, 2, and 3 using the array literal notation
+let arr4 = Array.from("hello"); // creates an array of the characters in the string "hello"
+let arr5 = Array(5).fill(0); // creates an array of 5 elements, all initialized to 0
+
+console.log(arr1)
+console.log(arr2)
+console.log(arr3)
+console.log(arr4)
+console.log(arr5)
