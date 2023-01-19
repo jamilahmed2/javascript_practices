@@ -117,12 +117,12 @@ for ( i = 0; i < 10; i++) {
     console.log(i)
   }
 
-// eg=1________
+// e.g:1________
 for ( i = 0; i < 10; i++) {
   console.log(i)
 }
 
-// eg=2________
+// e.g:2________
 for (let i = 1; i <= 10; i++) {
     document.write("Hello, World!");
 }
@@ -145,7 +145,7 @@ while(i>=10){
 
 // do while loop.........
 
-// eg=1_____
+// e.g:1_____
 let i = 1;
 do {
     console.log("Hello, World!");
@@ -153,7 +153,7 @@ do {
 } while (i <= 10);
 
 
-// eg=2______
+// e.g:2______
 let str = "hello";
 let reversed = "";
 let i = str.length - 1;
@@ -182,3 +182,31 @@ let name = ["jamil","zubair"]
 for(let name of name){
     console.log(name)
 }
+
+
+// Task No 9..............
+
+// functions to cookMaggi________
+function cookMaggi(maggi,water,cooker) {
+    document.write('Your maggi will be ready in'
+    + maggi * 2
+    + "min "
+    + "ingredients "
+    + maggi + "maggie "
+    + water + "water "
+    + " using " + cooker + "pan "
+    )
+    
+}
+cookMaggi( 4, 8, 1);
+
+
+// makeSandwich__________
+let bread = prompt("Which bread")
+let veggies = prompt("Which bread")
+let sauce = prompt("Which bread")
+
+function makeSandwich(bread,veggies,sauce) {
+    document.write(bread + veggies + " " + sauce + " sandwich is ready ")
+}
+makeSandwich(bread,veggies,sauce)
