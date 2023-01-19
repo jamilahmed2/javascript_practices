@@ -1,4 +1,4 @@
-// Task No 1
+// Task No 1............
 let btn = document.querySelector('button');
 btn.addEventListener('click', chngWord);
 
@@ -6,7 +6,7 @@ function chngWord() {
    alert('Hello world')
 }
 
-// Task No 2 
+// Task No 2 .............
 let btn = document.querySelector('button');
 btn.addEventListener('click', chngWord);
 
@@ -16,7 +16,7 @@ function chngWord() {
 }
 
 
-// Task No 3
+// Task No 3............
 
 // boolean
 var bool = true;
@@ -38,7 +38,7 @@ var num = 12345n;
 console.log(typeof num)
 
 
-// Task No 4
+// Task No 4...........
 
 // naming conventions
 // camelCase
@@ -58,7 +58,7 @@ var modeofPayment;
 prompt('Mode of payment')
 alert(firstName + " Successfull " + courseName + " Using " + modeofPayment)
 
-// Task No 5
+// Task No 5..............
 
 // modulo operator
 var x =  32, y = 52
@@ -76,7 +76,7 @@ var x = 3 != '3';
 // for more check google
 
 
-// Task No 6
+// Task No 6..............
 
 // contional statement
 var time = prompt("Hey what's the time: ")
@@ -91,7 +91,7 @@ if(time>5 && time<17){
 }
 
 
-// Task No 7
+// Task No 7...........
 
 // switch statement
 var fruittype = prompt("Check price avaiable fruits")
@@ -107,3 +107,78 @@ switch (fruittype) {
         alert(`${fruittype} is not available`)
 }
 alert('Let me know if anything left')
+
+
+
+// Task No 8.............
+
+// for loop..............
+for ( i = 0; i < 10; i++) {
+    console.log(i)
+  }
+
+// eg=1________
+for ( i = 0; i < 10; i++) {
+  console.log(i)
+}
+
+// eg=2________
+for (let i = 1; i <= 10; i++) {
+    document.write("Hello, World!");
+}
+
+// do while loop.............
+let eg = 1;
+do {
+    console.log("Hello, World!");
+    eg++;
+} while (eg <= 10);
+
+
+//  while loop...........
+let i = 0
+while(i>=10){
+    document.write('hello world')
+    i--
+}
+
+
+// do while loop.........
+
+// eg=1_____
+let i = 1;
+do {
+    console.log("Hello, World!");
+    i++;
+} while (i <= 10);
+
+
+// eg=2______
+let str = "hello";
+let reversed = "";
+let i = str.length - 1;
+
+do {
+    reversed += str[i];
+    i--;
+} while (i >= 0);
+
+console.log(reversed);
+
+
+// for in loop..........
+
+let animal={
+    name:"tiger",
+    leg:4
+}
+
+for(let key in animal){
+    console.log(key, animal[key])
+}
+
+// for of loop..........
+let name = ["jamil","zubair"]
+for(let name of name){
+    console.log(name)
+}
