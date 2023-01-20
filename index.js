@@ -251,3 +251,42 @@ console.log(arr2)
 console.log(arr3)
 console.log(arr4)
 console.log(arr5)
+
+
+// Task No 13............
+
+// factory function
+function jsCourse(title) {
+    return{
+        title:title,
+        enroll(){
+            console.log("Enrolled")
+        }
+    }
+}
+
+const newCourse = jsCourse('Functions')
+
+
+// constructor function
+function Jsourse(title) {
+        this.title = title,
+        this.enroll = function(){
+            console.log("Enrolled")
+        }
+        
+        
+
+const course = new Jsourse('Functions')
+course.enroll()
+
+// delete 
+// delete course.title;
+
+// creating new function
+course.checkEnrolled = function(){
+    console.log('100 users enrolled')
+}
+
+
+console.log(course)
